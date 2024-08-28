@@ -1,0 +1,40 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[cursor]
+style = { shape = "Beam"}
+#set upper to Block | Underline
+unfocused_hollow = true
+thickness = 0.15
+
+[mouse]
+hide_when_typing = true
+
+[window]
+startup_mode = "Windowed"
+title = "alacritty"
+dynamic_title = true
+decorations_theme_variant = "Dark"
+#set upper to none if looks bad
+decorations = "Full"
+
+[window.dimensions]
+columns = 160
+lines = 40
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = { family = "Iosevka", style = "Regular" }
+bold = { family = "Iosevka", style = "Bold" }
+italic = { family = "Iosevka", style = "Italic" }
+bold_italic = { family = "Iosevka", style = "Bold Italic" }
+size = 11.25
+offset = { x = 0, y = -2 }
