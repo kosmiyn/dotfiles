@@ -1,13 +1,10 @@
 # Installing
-## 1. download all packages
+## 1. Download all packages
 ```
-sudo pacman -S --needed alacritty amd-ucode base base-devel bat bluez discord efibootmgr fastfetch feh ffmpeg4.4 firefox fish fisher fuse2 gamemode git jre21-openjdk grub lib32-libva-mesa-driver lib32-mesa-vdpau libva-mesa-driver linux-firmware linux-lqx linux-lqx-headers mesa mesa-vdpau meson neovim networkmanager papirus-icon-theme pipewire-alsa qt6-svg reflector rofi sddm spotify-launcher steam ttc-iosevka ttf-hack-nerd unzip xf86-video-amdgpu xsel yt-dlp zenity
+sudo pacman -S --needed alacritty amd-ucode awesome-terminal-fonts base base-devel bat bluez discord efibootmgr fastfetch feh ffmpeg4.4 firefox fish fisher fuse2 gamemode git jre21-openjdk grub lib32-libva-mesa-driver lib32-mesa-vdpau libva-mesa-driver linux-firmware linux-lqx linux-lqx-headers lsd mesa mesa-vdpau meson neovim networkmanager papirus-icon-theme pipewire-alsa qt6-svg reflector rofi sddm spotify-launcher steam ttc-iosevka ttf-hack-nerd unzip xf86-video-amdgpu xsel yt-dlp zenity
 ```
 
-awesome-terminal-fonts
-lsd
 
-prismlauncher
 ## 2. .config/ folders
 ### 2.1. Clone the repo into your working directory
 ```
