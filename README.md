@@ -1,3 +1,8 @@
+# https://youtu.be/zm0zFpcHBgU?t=875
+# https://youtu.be/qeaimMZKi0A?t=94
+
+
+
 # Installing
 ## 1. Download all packages
 ```
