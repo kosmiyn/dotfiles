@@ -24,7 +24,7 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 ```
-### 3.1 install AUR packages
+### 3.1 Install AUR packages
 ```
 paru -S prismlauncher
 ```
