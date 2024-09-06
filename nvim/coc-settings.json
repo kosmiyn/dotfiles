@@ -1,0 +1,20 @@
+{
+  "languageserver": {
+    "pyright": {
+      "command": "pyright-langserver",
+      "args": ["--stdio"],
+      "filetypes": ["python"],
+      "rootPatterns": ["pyrightconfig.json", ".git"],
+      "trace.server": "verbose",
+      "settings": {
+        "python": {
+          "analysis": {
+            "autoSearchPaths": true,
+            "diagnosticMode": "workspace"
+          }
+        }
+      }
+    }
+  }
+}
+
