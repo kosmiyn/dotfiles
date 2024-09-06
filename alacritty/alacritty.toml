@@ -38,4 +38,4 @@ bold = { family = "Iosevka", style = "Bold" }
 italic = { family = "Iosevka", style = "Italic" }
 bold_italic = { family = "Iosevka", style = "Bold Italic" }
 size = 11.25
-offset = { x = 0, y = -2 }
+offset = { x = -1, y = -3 }
