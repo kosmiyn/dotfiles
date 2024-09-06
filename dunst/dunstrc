@@ -1,0 +1,26 @@
+[global]
+frame_color = "#cba6f7"
+separator_color= frame
+font = Iosevka 12
+
+
+[urgency_low]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+font = Iosevka 12
+
+
+[urgency_normal]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+font = Iosevka 12
+
+
+[urgency_critical]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#fab387"
+font = Iosevka 12
+
+
+
