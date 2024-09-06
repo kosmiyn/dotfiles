@@ -22,6 +22,7 @@ dynamic_title = true
 decorations_theme_variant = "Dark"
 #set upper to none if looks bad
 decorations = "Full"
+opacity = 0.8
 
 [window.dimensions]
 columns = 160
