@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "coc-python": ">=1.2.13",
+    "coc-snippets": ">=3.1.10",
+    "coc-pyright": ">=1.1.377"
+  },
+  "lastUpdate": 1725490796591
+}
