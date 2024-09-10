@@ -1,4 +1,30 @@
 # working on this rn, return later pls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Installing automatically
 ```
 
