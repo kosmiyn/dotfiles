@@ -1,7 +1,7 @@
 # Installing
-## 1. Download all packages
+## 1. Download packages
 ```
-sudo pacman -S --needed alacritty amd-ucode awesome-terminal-fonts base base-devel bat bluez discord efibootmgr fastfetch feh ffmpeg4.4 firefox fish fisher fuse2 gamemode git jre21-openjdk grub lib32-libva-mesa-driver lib32-mesa-vdpau libva-mesa-driver linux-firmware linux-lqx linux-lqx-headers lsd mesa mesa-vdpau meson neovim networkmanager papirus-icon-theme pipewire-alsa qt6-svg reflector rofi sddm spotify-launcher steam ttc-iosevka ttf-hack-nerd unzip xf86-video-amdgpu xsel yt-dlp zenity
+sudo pacman -S --needed 
 ```
 
 
@@ -17,6 +17,10 @@ cd dotfiles
 ### 2.3 Copy what you need into your .config
 ```
 cp -r FOLDER-NAME ~/.config/
+```
+For all config folders, do:
+```
+cp -r Vencord $HOME/.config/ | cp -r alacritty $HOME/.config/ | cp -r dunst $HOME/.config/ | cp -r i3 $HOME/.config/ | cp -r nvim $HOME/.config/ | cp -r picom $HOME/.config/ | cp -r polybar $HOME/.config/ | cp -r rofi $HOME/.config/
 ```
 ## 3. Install paru
 ```
