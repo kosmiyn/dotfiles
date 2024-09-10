@@ -1,4 +1,3 @@
-# working on this rn, return later pls
 # Installing automatically
 ```
 curl https://raw.githubusercontent.com/kosmiyn/dotfiles/main/pkgs > pkgs
@@ -38,5 +37,5 @@ makepkg -si
 ```
 ### 3.1 Install AUR packages
 ```
-paru -S prismlauncher
+paru -S prismlauncher update-grub ani-cli rofi-bluetooth-git catnap-git
 ```
