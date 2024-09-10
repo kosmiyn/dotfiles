@@ -1,7 +1,11 @@
 # working on this rn, return later pls
 # Installing automatically
 ```
-
+curl https://raw.githubusercontent.com/kosmiyn/dotfiles/main/pkgs > pkgs
+pacman -S --needed - < pkgs
+curl https://raw.githubusercontent.com/kosmiyn/dotfiles/main/install.sh
+chmod+x install.sh
+./install.sh
 ```
 # Installing
 ## 1. Download git
