@@ -67,19 +67,21 @@ mode "resize" {
 
 # autoexec
 exec_always --no-startup-id xrandr --output HDMI-A-0 --refresh 144 --mode 1920x1080
-exec_always --no-startup-id /home/kosmiyn/scripts/1440x1080.sh
-exec_always --no-startup-id /home/kosmiyn/.config/polybar/polybar.sh
-exec_always --no-startup-id /home/kosmiyn/.config/dunst/dunst.sh
-exec_always --no-startup-id /home/kosmiyn/.config/picom/picom.sh
+exec_always --no-startup-id ~/scripts/1440x1080.sh
+exec_always --no-startup-id ~/.config/polybar/polybar.sh
+exec_always --no-startup-id ~/.config/dunst/dunst.sh
+exec_always --no-startup-id ~/.config/picom/picom.sh
+exec_always --no-startup-id ~/scripts/autotiling.sh 
 exec ~/.fehbg &
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # binds
-bindsym $mod+Shift+s exec scrot /home/kosmiyn/Desktop/screenshots/$(date +%F-%H%M%S).png
+bindsym $mod+Shift+s exec scrot /home/kosmiyn/screenshots/$(date +%F-%H%M%S).png
 bindsym $mod+d exec --no-startup-id rofi -show
 bindsym $mod+z exec ani-cli --rofi --skip
+bindsym $mod+x exec --no-startup-id rofi-bluetooth
 bindsym $mod+t exec /home/kosmiyn/scripts/firefox.sh
 bindsym $mod+q kill
 bindsym $mod+Return exec alacritty
