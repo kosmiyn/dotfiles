@@ -6,4 +6,10 @@ mkdir $HOME/wallpapers
 cp evening-sky(1).png $HOME/wallpapers
 cp samurai(1).jpg $HOME/wallpapers
 feh --bg-scale $HOME/wallpapers/samurai(1).jpg
+cd $HOME
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+paru -S prismlauncher update-grub ani-cli rofi-bluetooth-git catnap-git
+rm -rf $HOME/paru
 rm -rf $HOME/dotfiles
