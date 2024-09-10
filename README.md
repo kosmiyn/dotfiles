@@ -6,7 +6,7 @@ curl https://raw.githubusercontent.com/kosmiyn/dotfiles/main/install.sh
 chmod+x install.sh
 ./install.sh
 ```
-# Installing
+# Installing manually
 ## 1. Download git
 ```
 sudo pacman -S --needed git
