@@ -1,11 +1,14 @@
+# Installing automatically
+```
+
+```
 # Installing
-## 1. Download packages
+## 1. Download git
 ```
-sudo pacman -S --needed 
+sudo pacman -S --needed git
 ```
 
-
-## 2. .config/ folders
+## 2. Dependencies and their config files
 ### 2.1. Clone the repo into your working directory
 ```
 git clone https://github.com/kosmiyn/dotfiles
