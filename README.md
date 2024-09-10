@@ -21,7 +21,12 @@ git clone https://github.com/kosmiyn/dotfiles
 ```
 cd dotfiles
 ```
-### 2.3 Copy what you need into your .config
+### 2.3 Download packages
+```
+pacman -S --needed - < pkgs
+```
+ 
+### 2.4 Copy what you need into your .config
 ```
 cp -r FOLDER-NAME ~/.config/
 ```
