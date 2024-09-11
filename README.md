@@ -2,7 +2,7 @@
 ```
 curl https://raw.githubusercontent.com/kosmiyn/dotfiles/main/pkgs > pkgs
 pacman -S --needed - < pkgs
-curl https://raw.githubusercontent.com/kosmiyn/dotfiles/main/install.sh
+curl https://raw.githubusercontent.com/kosmiyn/dotfiles/main/install.sh > install.sh
 chmod+x install.sh
 ./install.sh
 ```
